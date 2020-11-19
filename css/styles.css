@@ -1,0 +1,26 @@
+.horizontal{
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.horizontal::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+}
+
+.horizontal div{
+    background-color: #3f1917;
+    height: 197px;
+    margin: 1rem 0.5rem;
+    flex: 0 0 330px;
+}
+
+.parallax-image{
+    background-image: url("../img/movie.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
